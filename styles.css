@@ -1,0 +1,72 @@
+/* start of global */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* end of global */
+
+body {
+    background: #fff1b5;
+}
+
+/* card  start */
+
+.card {
+    background: #fff url('home-bg-gradient.png');
+    background-position: center;
+    background-size: contain;
+    width: 300px;
+    border: 2px solid #ccc;
+    margin: 10px 0 0 10px;
+    padding: 20px 10px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+/* card h3 */
+
+.card .heading {
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+/* card image */
+
+.card .lion-img {
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* start of card description */
+
+.card .card-desc {
+    border: 2px solid #ccc;
+    padding: 10px;
+    background: #fbfbfb;
+}
+
+.card .card-desc .interest-fact {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.card .card-desc .list {
+    margin-bottom: 20px;
+}
+
+.card .card-desc .list .list-item {
+    list-style: none;
+}
+
+.card .card-desc .list .list-item .label {
+    font-weight: bold;
+}
+
+.card .card-desc .fav-desc {
+    margin-bottom: 20px;
+}
+
+/* end of card description */
+/* card end */
